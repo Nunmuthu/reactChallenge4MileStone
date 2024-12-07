@@ -1,0 +1,52 @@
+{
+    "name": "reactapp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.15.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "axios": "^0.24.0",
+        "http-proxy-middleware": "^2.0.1",
+        "json-server": "^0.17.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-scripts": "4.0.3",
+        "start-server-and-test": "^1.7.11",
+        "styled-components": "^5.3.3",
+        "wait-on": "^3.2.0",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "start": "json-server -p 8001 db.json & PORT=8000 react-scripts start --disable-host-check",
+        "start-test": "PORT=8002 react-scripts start --disable-host-check",
+        "json-server": "json-server --watch db.json --port 8001",
+        "build": "react-scripts build",
+        "test": "nightwatch",
+        "ci": "npx start-server-and-test start-test http://localhost:8002 json-server http://localhost:8001 nightwatch; mv ./report/* ./report/unit.xml;",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "chromedriver": "^92.0.2",
+        "express": "^4.17.1",
+        "nightwatch": "^1.0.19"
+    }
+}

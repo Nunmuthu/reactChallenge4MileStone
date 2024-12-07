@@ -1,0 +1,95 @@
+{
+    "Classes": [
+      {
+        "id": 1,
+        "name": "Class 1",
+        "timeTable": [
+          {"1": {"id": 1,"teacherName": "Anu","teacherId": "111","subject": "English"},
+            "2": {"id": 2,"teacherName": "Tanu","teacherId": "112","subject": "Lang 2"},
+            "3": {"id": 3,"teacherName": "Venu","teacherId": "207","subject": "Maths"},
+            "4": {"id": 4,"teacherName": "Thara","teacherId": "114","subject": "Social"},
+            "5": {"id": 5,"teacherName": "Zara","teacherId": "200","subject": "Science"},
+            "6": {"id": 6,"teacherName": "Jack","teacherId": "116","subject": "History"},
+            "7": {"id": 7,"teacherName": "Ross","teacherId": "117","subject": "Geography"},
+            "8": {"id": 8,"teacherName": "Monica","teacherId": "118","subject": "Art"},
+            "9": {"id": 9,"teacherName": "Rachel","teacherId": "119","subject": "Biology"},
+            "name": "Monday"
+          },
+          {
+            "1": {"id": 1,"teacherName": "Anu","teacherId": "111","subject": "English"},
+            "2": {"id": 2,"teacherName": "Tanu","teacherId": "112","subject": "Lang 2"},
+            "3": {"id": 3,"teacherName": "Zara","teacherId": "200","subject": "Science"},
+            "4": {"id": 4,"teacherName": "Rachel","teacherId": "119","subject": "Biology"},
+            "5": {"id": 5,"teacherName": "Venu","teacherId": "207","subject": "Maths"},
+            "6": {"id": 6,"teacherName": "Thara","teacherId": "114","subject": "Social"},
+            "7": {"id": 7,"teacherName": "Jack","teacherId": "116","subject": "History"},
+            "8": {"id": 8,"teacherName": "Ross","teacherId": "117","subject": "Geography"},
+            "name": "Tuesday"
+          },
+          {
+            "1": {"id": 1,"teacherName": "Anu","teacherId": "111","subject": "English"},
+            "2": {"id": 2,"teacherName": "Tanu","teacherId": "112","subject": "Lang 2"},
+            "3": {"id": 3,"teacherName": "Monica","teacherId": "118","subject": "Art"},
+            "4": {"id": 4,"teacherName": "Venu","teacherId": "207","subject": "Maths"},
+            "5": {"id": 5,"teacherName": "Zara","teacherId": "200","subject": "Science"},
+            "6": {"id": 6,"teacherName": "Thara","teacherId": "114","subject": "Social"},
+            "7": {"id": 7,"teacherName": "Jack","teacherId": "116","subject": "History"},
+            "8": {"id": 8,"teacherName": "Ross","teacherId": "117","subject": "Geography"},
+            "name": "Wednesday"
+          },
+          {
+            "1": {"id": 1,"teacherName": "Anu","teacherId": "111","subject": "English"},
+            "2": {"id": 2,"teacherName": "Tanu","teacherId": "112","subject": "Lang 2"},
+            "3": {"id": 3,"teacherName": "Venu","teacherId": "207","subject": "Maths"},
+            "4": {"id": 4,"teacherName": "Thara","teacherId": "114","subject": "Social"},
+            "5": {"id": 5,"teacherName": "Zara","teacherId": "200","subject": "Science"},
+            "6": {"id": 6,"teacherName": "Jack","teacherId": "116","subject": "History"},
+            "7": {"id": 7,"teacherName": "Ross","teacherId": "117","subject": "Geography"},
+            "8": {"id": 8,"teacherName": "Monica","teacherId": "118","subject": "Art"},
+            "name": "Thursday"
+          },
+          {
+            "1": {"subject": "asdfsad","teacherName": "Rebecca","teacherId": "203","id": 1},
+            "name": "Friday"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Class 2",
+        "timeTable": [
+          {
+            "2": {"subject": "English","teacherName": "Zara","teacherId": "200","id": 2},
+            "name": "Monday"
+          },
+          {
+            "name": "Tuesday"
+          },
+          {
+            "name": "Wednesday"
+          },
+          {
+            "name": "Thursday"
+          },
+          {
+            "name": "Friday"
+          }
+        ]
+      }
+    ],
+    "teachers": [
+      {"id": 1,"name": "Zara","empId": "200"},
+      {"id": 2,"name": "Tara","empId": "201"},
+      {"id": 3,"name": "Jack","empId": "202"},
+      {"id": 4,"name": "Rebecca","empId": "203"},
+      {"id": 5,"name": "Roger","empId": "204"},
+      {"id": 6,"name": "Anu","empId": "205"},
+      {"id": 7,"name": "Shaanu","empId": "206"},
+      {"id": 8,"name": "Venu","empId": "207"},
+      {"id": 9,"name": "Yara","empId": "208"},
+      {"id": 10,"name": "Binu","empId": "209"},
+      {"id": 11,"name": "Tom","empId": "210"}
+    ]
+  }
+  
+  
