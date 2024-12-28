@@ -6,20 +6,22 @@
         "@testing-library/jest-dom": "^5.15.1",
         "@testing-library/react": "^11.2.7",
         "@testing-library/user-event": "^12.8.3",
-        "axios": "^0.24.0",
+        "axios": "^1.7.9",
+        "chromedriver": "^131.0.2",
         "http-proxy-middleware": "^2.0.1",
         "json-server": "^0.17.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
-        "react-scripts": "4.0.3",
+        "react-scripts": "^5.0.1",
         "start-server-and-test": "^1.7.11",
         "styled-components": "^5.3.3",
-        "wait-on": "^3.2.0",
+        "wait-on": "^8.0.1",
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "json-server -p 8001 db.json & PORT=8000 react-scripts start --disable-host-check",
-        "start-test": "PORT=8002 react-scripts start --disable-host-check",
+        "start": "json-server -p 8001 db.json && set PORT=8000 react-scripts start --disable-host-check",
+        "start-react": "set PORT=8002 && react-scripts start --disable-host-check",
+        "start-test": "set PORT=8002 && react-scripts start",
         "json-server": "json-server --watch db.json --port 8001",
         "build": "react-scripts build",
         "test": "nightwatch",
@@ -45,8 +47,7 @@
         ]
     },
     "devDependencies": {
-        "chromedriver": "^92.0.2",
         "express": "^4.17.1",
-        "nightwatch": "^1.0.19"
+        "nightwatch": "^3.9.0"
     }
 }

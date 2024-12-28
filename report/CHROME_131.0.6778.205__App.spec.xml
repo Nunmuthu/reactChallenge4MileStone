@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="19"
+            failures="44"
+            tests="8">
+
+  <testsuite name="App.spec"
+    errors="19" failures="44" hostname="" id="" package="App.spec" skipped="0"
+    tests="8" time="778.1" timestamp="">
+  
+    <testcase name="Initial Content" classname="App.spec" time="1.762" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Checking Class List and added class time table" classname="App.spec" time="2.929" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check Class 1" classname="App.spec" time="2.855" assertions="27">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Allot Class 1 friday 3period" classname="App.spec" time="12.24" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;strong&gt; contains text &#39;English&#39; in 5000ms - expected &#34;contains text &#39;English&#39;&#34; but got: &#34;does not contain &#39;English&#39;&#34; (5472ms)">    at Allot Class 1 friday 3period (C:\Users\nunmu\reactTemp\tests\App.spec.js:181:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;p&gt; contains text &#39;Jack&#39; in 5000ms - expected &#34;contains text &#39;Jack&#39;&#34; but got: &#34;does not contain &#39;Jack&#39;&#34; (5477ms)">    at Allot Class 1 friday 3period (C:\Users\nunmu\reactTemp\tests\App.spec.js:185:15)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Error 1" classname="App.spec" time="64.87" assertions="18">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#modalError&gt; contains text &#39;Jack with emp id 202 has already been allocated for Class 1 on Friday, period 4&#39; in 5000ms - expected &#34;contains text &#39;Jack with emp id 202 has already been allocated for Class 1 on Friday, period 4&#39;&#34; but got: &#34;element could not be located&#34; (5253ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:207:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;strong&gt; does not contain text &#39;English&#39; in 5000ms - expected &#34;does not contain text &#39;English&#39;&#34; but got: &#34;contains &#39;English&#39;&#34; (5035ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:211:19)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;p&gt; does not contain text &#39;Jack&#39; in 5000ms - expected &#34;does not contain text &#39;Jack&#39;&#34; but got: &#34;contains &#39;Jack&#39;&#34; (5504ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:215:19)</failure>
+
+      <failure message="Testing if element &lt;.ModalBg&gt; is present in 5000ms - expected &#34;is present&#34; but got: &#34;not present&#34; (5380ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:219:15)</failure>
+
+    
+
+      <failure message="Testing if value of element &lt;#teacherId&gt; equals &#39;&#39; in 5000ms - expected &#34;equals &#39;&#39;&#34; but got: &#34;element could not be located&#34; (5236ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:225:15)</failure>
+
+      <failure message="Testing if value of element &lt;#teacherId&gt; equals &#39;208&#39; in 5000ms - expected &#34;equals &#39;208&#39;&#34; but got: &#34;element could not be located&#34; (5224ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:227:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;strong&gt; contains text &#39;Science&#39; in 5000ms - expected &#34;contains text &#39;Science&#39;&#34; but got: &#34;does not contain &#39;Science&#39;&#34; (5405ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:229:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;p&gt; contains text &#39;Yara&#39; in 5000ms - expected &#34;contains text &#39;Yara&#39;&#34; but got: &#34;does not contain &#39;Yara&#39;&#34; (5420ms)">    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:233:15)</failure>
+
+    
+    <error message="Testing if element [33m&lt;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;p&gt;[39m contains text [33m&#39;Yara&#39;[39m in 5000ms - expected [32m&#34;contains text &#39;Yara&#39;&#34;[39m but got: [31m&#34;does not contain &#39;Yara&#39;&#34;[39m [90m(5420ms)[39m" type="error"><![CDATA[
+    Error
+    at Proxy.&lt;anonymous&gt; (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\api\index.js:161:30)
+    at Error 1 (C:\Users\nunmu\reactTemp\tests\App.spec.js:233:15)
+    at Context.call (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\context.js:515:35)
+    at TestCase.run (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at async DefaultRunner.runTestSuite (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\runner\test-runners\default.js:83:7)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Error 2" classname="App.spec" time="161.2" assertions="39">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(2)&gt;strong&gt; contains text &#39;Biology&#39; in 5000ms - expected &#34;contains text &#39;Biology&#39;&#34; but got: &#34;does not contain &#39;Biology&#39;&#34; (5455ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:255:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(2)&gt;p&gt; contains text &#39;Zara&#39; in 5000ms - expected &#34;contains text &#39;Zara&#39;&#34; but got: &#34;does not contain &#39;Zara&#39;&#34; (5445ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:259:15)</failure>
+
+      <failure message="Testing if element &lt;.ModalBg&gt; is not present in 5000ms - expected &#34;is not present&#34; but got: &#34;present&#34; (5399ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:263:19)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;strong&gt; contains text &#39;Social&#39; in 5000ms - expected &#34;contains text &#39;Social&#39;&#34; but got: &#34;does not contain &#39;Social&#39;&#34; (5465ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:266:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;p&gt; contains text &#39;Thara&#39; in 5000ms - expected &#34;contains text &#39;Thara&#39;&#34; but got: &#34;does not contain &#39;Thara&#39;&#34; (5459ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:267:15)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Testing if attribute &#39;disabled&#39; of element &lt;#assign&gt; contains &#39;true&#39; in 5000ms - expected &#34;contains &#39;true&#39;&#34; but got: &#34;Element does not have a &#39;disabled&#39; attribute&#34; (5485ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:274:15)</failure>
+
+      <failure message="Testing if value of element &lt;#teacherId&gt; equals &#39;&#39; in 5000ms - expected &#34;equals &#39;&#39;&#34; but got: &#34;200&#34; (5419ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:276:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(1)&gt; contains text &#39;Class 1&#39; in 5000ms - expected &#34;contains text &#39;Class 1&#39;&#34; but got: &#34;does not contain &#39;Class 1&#39;&#34; (5460ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:279:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(3)&gt; contains text &#39;4&#39; in 5000ms - expected &#34;contains text &#39;4&#39;&#34; but got: &#34;does not contain &#39;4&#39;&#34; (5478ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:281:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(6)&gt;strong&gt; contains text &#39;Biology&#39; in 5000ms - expected &#34;contains text &#39;Biology&#39;&#34; but got: &#34;does not contain &#39;Biology&#39;&#34; (5483ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:283:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(6)&gt;p&gt; contains text &#39;Zara&#39; in 5000ms - expected &#34;contains text &#39;Zara&#39;&#34; but got: &#34;does not contain &#39;Zara&#39;&#34; (5459ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:287:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;strong&gt; contains text &#39;Maths&#39; in 5000ms - expected &#34;contains text &#39;Maths&#39;&#34; but got: &#34;does not contain &#39;Maths&#39;&#34; (5429ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:292:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;p&gt; contains text &#39;Venu&#39; in 5000ms - expected &#34;contains text &#39;Venu&#39;&#34; but got: &#34;does not contain &#39;Venu&#39;&#34; (5482ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:293:15)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Testing if value of element &lt;#teacherId&gt; equals &#39;&#39; in 5000ms - expected &#34;equals &#39;&#39;&#34; but got: &#34;200&#34; (5670ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:301:15)</failure>
+
+      <failure message="Testing if value of element &lt;#teacherName&gt; equals &#39;Zara&#39; in 5000ms - expected &#34;equals &#39;Zara&#39;&#34; but got: &#34;200&#34; (5451ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:303:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(1)&gt; contains text &#39;Class 1&#39; in 5000ms - expected &#34;contains text &#39;Class 1&#39;&#34; but got: &#34;does not contain &#39;Class 1&#39;&#34; (5474ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:305:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(3)&gt; contains text &#39;3&#39; in 5000ms - expected &#34;contains text &#39;3&#39;&#34; but got: &#34;does not contain &#39;3&#39;&#34; (5442ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:307:15)</failure>
+
+      <failure message="Testing if element &lt;#modalError&gt; contains text &#39;No more hours can be allocated for Zara in morning&#39; in 5000ms - expected &#34;contains text &#39;No more hours can be allocated for Zara in morning&#39;&#34; but got: &#34;does not contain &#39;No more hours can be allocated for Zara in morning&#39;&#34; (5474ms)">    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:309:15)</failure>
+
+    
+
+    
+
+    
+    <error message="An error occurred while running .click() command on &lt;#cancel&gt;: element click intercepted: Element &lt;button id=&#34;cancel&#34;&gt;...&lt;/button&gt; is not clickable at point (661, 347). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)" type="error"><![CDATA[
+    Error
+    at Error 2 (C:\Users\nunmu\reactTemp\tests\App.spec.js:321:8)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Error 3" classname="App.spec" time="131.4" assertions="37">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#title&gt;h1&gt; contains text &#39;Class Name: Class 2&#39; in 5000ms - expected &#34;contains text &#39;Class Name: Class 2&#39;&#34; but got: &#34;does not contain &#39;Class Name: Class 2&#39;&#34; (5487ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:349:15)</failure>
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(1)&gt; contains text &#39;Class 2&#39; in 5000ms - expected &#34;contains text &#39;Class 2&#39;&#34; but got: &#34;does not contain &#39;Class 2&#39;&#34; (5462ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:359:15)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(9)&gt;strong&gt; contains text &#39;Maths&#39; in 5000ms - expected &#34;contains text &#39;Maths&#39;&#34; but got: &#34;does not contain &#39;Maths&#39;&#34; (5478ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:363:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(9)&gt;p&gt; contains text &#39;Venu&#39; in 5000ms - expected &#34;contains text &#39;Venu&#39;&#34; but got: &#34;does not contain &#39;Venu&#39;&#34; (5423ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:367:15)</failure>
+
+      <failure message="Testing if element &lt;.ModalBg&gt; is not present in 5000ms - expected &#34;is not present&#34; but got: &#34;present&#34; (5338ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:371:19)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;strong&gt; contains text &#39;Social&#39; in 5000ms - expected &#34;contains text &#39;Social&#39;&#34; but got: &#34;does not contain &#39;Social&#39;&#34; (5470ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:374:15)</failure>
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;p&gt; contains text &#39;Thara&#39; in 5000ms - expected &#34;contains text &#39;Thara&#39;&#34; but got: &#34;does not contain &#39;Thara&#39;&#34; (5514ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:378:15)</failure>
+
+    
+
+      <failure message="Testing if value of element &lt;#teacherId&gt; equals &#39;&#39; in 5000ms - expected &#34;equals &#39;&#39;&#34; but got: &#34;207&#34; (5433ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:390:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(1)&gt; contains text &#39;Class 1&#39; in 5000ms - expected &#34;contains text &#39;Class 1&#39;&#34; but got: &#34;does not contain &#39;Class 1&#39;&#34; (5466ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:393:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(3)&gt; contains text &#39;6&#39; in 5000ms - expected &#34;contains text &#39;6&#39;&#34; but got: &#34;does not contain &#39;6&#39;&#34; (5433ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:395:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;#modalError&gt; contains text &#39;No more hours can be allocated for Venu in evening&#39; in 5000ms - expected &#34;contains text &#39;No more hours can be allocated for Venu in evening&#39;&#34; but got: &#34;does not contain &#39;No more hours can be allocated for Venu in evening&#39;&#34; (5484ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:398:15)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(1)&gt; contains text &#39;Class 1&#39; in 5000ms - expected &#34;contains text &#39;Class 1&#39;&#34; but got: &#34;does not contain &#39;Class 1&#39;&#34; (5442ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:412:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;.cellDetails&gt;p:nth-of-type(3)&gt; contains text &#39;6&#39; in 5000ms - expected &#34;contains text &#39;6&#39;&#34; but got: &#34;does not contain &#39;6&#39;&#34; (5422ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:414:15)</failure>
+
+    
+
+      <failure message="Testing if element &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;p&gt; contains text &#39;Roger&#39; in 5000ms - expected &#34;contains text &#39;Roger&#39;&#34; but got: &#34;does not contain &#39;Roger&#39;&#34; (5451ms)">    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:417:15)</failure>
+
+    
+    <error message="Testing if element [33m&lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;p&gt;[39m contains text [33m&#39;Roger&#39;[39m in 5000ms - expected [32m&#34;contains text &#39;Roger&#39;&#34;[39m but got: [31m&#34;does not contain &#39;Roger&#39;&#34;[39m [90m(5451ms)[39m" type="error"><![CDATA[
+    Error
+    at Proxy.&lt;anonymous&gt; (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\api\index.js:161:30)
+    at Error 3 (C:\Users\nunmu\reactTemp\tests\App.spec.js:417:15)
+    at Context.call (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\context.js:515:35)
+    at TestCase.run (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\testcase.js:58:31)
+    at Runnable.__runFn (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:839:80)
+    at Runnable.run (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\runnable.js:126:21)
+    at TestSuite.executeRunnable (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:1000:49)
+    at TestSuite.handleRunnable (C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:1015:33)
+    at C:\Users\nunmu\reactTemp\node_modules\nightwatch\lib\testsuite\index.js:839:21
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Delete class" classname="App.spec" time="11.80" assertions="6">
+
+    
+
+      <failure message="Testing if element &lt;aside&gt;main&gt;div:nth-of-type(1)&gt; contains text &#39;Class 2&#39; in 5000ms - expected &#34;contains text &#39;Class 2&#39;&#34; but got: &#34;does not contain &#39;Class 2&#39;&#34; (5486ms)">    at Delete class (C:\Users\nunmu\reactTemp\tests\App.spec.js:430:15)</failure>
+
+    
+
+    
+
+      <failure message="Testing if element &lt;aside&gt;main&gt;div:nth-of-type(1)&gt; contains text &#39;Class 2&#39; in 5000ms - expected &#34;contains text &#39;Class 2&#39;&#34; but got: &#34;does not contain &#39;Class 2&#39;&#34; (5417ms)">    at Delete class (C:\Users\nunmu\reactTemp\tests\App.spec.js:436:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An error occurred while running .click() command on &lt;#cancel&gt;: Timed out while waiting for element &#34;#cancel&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:220
+    ––––––––––––––––––––––––––––––––––––––––––––
+     218 |       )
+     219 |       .verify.elementPresent(&#34;.ModalBg&#34;)
+     220 |       .click(&#34;#cancel&#34;) 
+     221 |       .verify.not.elementPresent(&#34;.ModalBg&#34;)
+     222 | 
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;#subject&gt;: Timed out while waiting for element &#34;#subject&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:224
+    ––––––––––––––––––––––––––––––––––––––––––––
+     222 | 
+     223 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&#34;)
+     224 |       .setValue(&#34;#subject&#34;, &#34;Science&#34;) 
+     225 |       .verify.value(&#34;#teacherId&#34;, &#34;&#34;)
+     226 |       .click(&#34;#teacherName option:nth-child(10)&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;#teacherName option:nth-child(10)&gt;: Timed out while waiting for element &#34;#teacherName option:nth-child(10)&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:226
+    ––––––––––––––––––––––––––––––––––––––––––––
+     224 |       .setValue(&#34;#subject&#34;, &#34;Science&#34;)
+     225 |       .verify.value(&#34;#teacherId&#34;, &#34;&#34;)
+     226 |       .click(&#34;#teacherName option:nth-child(10)&#34;) 
+     227 |       .verify.value(&#34;#teacherId&#34;, &#34;208&#34;)
+     228 |       .click(&#34;#assign&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;#assign&gt;: Timed out while waiting for element &#34;#assign&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:228
+    ––––––––––––––––––––––––––––––––––––––––––––
+     226 |       .click(&#34;#teacherName option:nth-child(10)&#34;)
+     227 |       .verify.value(&#34;#teacherId&#34;, &#34;208&#34;)
+     228 |       .click(&#34;#assign&#34;) 
+     229 |       .verify.containsText(
+     230 |         &#34;table&gt;tbody&gt;tr:nth-of-type(5)&gt;td:nth-of-type(5)&gt;strong&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;aside&gt;main&gt;div:nth-of-type(1)&gt;: element click intercepted: Element &lt;div class=&#34;className&#34;&gt;...&lt;/div&gt; is not clickable at point (133, 197). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:265
+    ––––––––––––––––––––––––––––––––––––––––––––
+     263 |       .verify.not.elementPresent(&#34;.ModalBg&#34;)
+     264 | 
+     265 |       .click(&#34;aside&gt;main&gt;div:nth-of-type(1)&#34;) 
+     266 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;strong&#34;, &#34;Social&#34;)
+     267 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;p&#34;, &#34;Thara&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;button&gt;: Timed out while waiting for element &#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;button&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:268
+    ––––––––––––––––––––––––––––––––––––––––––––
+     266 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;strong&#34;, &#34;Social&#34;)
+     267 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;p&#34;, &#34;Thara&#34;)
+     268 |       .click(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;button&#34;) 
+     269 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;strong&#34;, &#34;&#34;)
+     270 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;p&#34;, &#34;&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(6)&gt;: element click intercepted: Element &lt;td&gt;...&lt;/td&gt; is not clickable at point (723, 279). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:272
+    ––––––––––––––––––––––––––––––––––––––––––––
+     270 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(6)&gt;p&#34;, &#34;&#34;)
+     271 |       .pause(1000)
+     272 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(6)&#34;) 
+     273 |       .verify.elementPresent(&#34;.ModalBg&#34;)
+     274 |       .verify.attributeContains(&#34;#assign&#34;, &#34;disabled&#34;, &#34;true&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#assign&gt;: element click intercepted: Element &lt;button id=&#34;assign&#34;&gt;...&lt;/button&gt; is not clickable at point (587, 377). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:282
+    ––––––––––––––––––––––––––––––––––––––––––––
+     280 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(2)&#34;, &#34;Monday&#34;)
+     281 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(3)&#34;, 4)
+     282 |       .click(&#34;#assign&#34;) 
+     283 |       .verify.containsText(
+     284 |         &#34;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(6)&gt;strong&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;button&gt;: element click intercepted: Element &lt;button&gt;...&lt;/button&gt; is not clickable at point (723, 644). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:294
+    ––––––––––––––––––––––––––––––––––––––––––––
+     292 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;strong&#34;, &#34;Maths&#34;)
+     293 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;p&#34;, &#34;Venu&#34;)
+     294 |       .click(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;button&#34;) 
+     295 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;strong&#34;, &#34;&#34;)
+     296 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;p&#34;, &#34;&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(5)&gt;: element click intercepted: Element &lt;td&gt;...&lt;/td&gt; is not clickable at point (640, 249). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:298
+    ––––––––––––––––––––––––––––––––––––––––––––
+     296 |       .verify.containsText(&#34;table&gt;tbody&gt;tr&gt;td:nth-of-type(5)&gt;p&#34;, &#34;&#34;)
+     297 |       .pause(1000)
+     298 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(1)&gt;td:nth-of-type(5)&#34;) 
+     299 |       .verify.elementPresent(&#34;.ModalBg&#34;)
+     300 |       .setValue(&#34;#subject&#34;, &#34;English&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#assign&gt;: element click intercepted: Element &lt;button id=&#34;assign&#34;&gt;...&lt;/button&gt; is not clickable at point (587, 347). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:308
+    ––––––––––––––––––––––––––––––––––––––––––––
+     306 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(2)&#34;, &#34;Monday&#34;)
+     307 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(3)&#34;, 3)
+     308 |       .click(&#34;#assign&#34;) 
+     309 |       .verify.containsText(
+     310 |         &#34;#modalError&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#cancel&gt;: element click intercepted: Element &lt;button id=&#34;cancel&#34;&gt;...&lt;/button&gt; is not clickable at point (661, 347). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:321
+    ––––––––––––––––––––––––––––––––––––––––––––
+     319 |         &#34;&#34;
+     320 |       )
+     321 |       .click(&#34;#cancel&#34;); 
+     322 |   },
+     323 |   &#34;Error 3&#34;: function (browser) {
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;aside&gt;main&gt;div:nth-of-type(1)&gt;: element click intercepted: Element &lt;div class=&#34;className&#34;&gt;...&lt;/div&gt; is not clickable at point (133, 197). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:373
+    ––––––––––––––––––––––––––––––––––––––––––––
+     371 |       .verify.not.elementPresent(&#34;.ModalBg&#34;)
+     372 | 
+     373 |       .click(&#34;aside&gt;main&gt;div:nth-of-type(1)&#34;) 
+     374 |       .verify.containsText(
+     375 |         &#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;strong&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;button&gt;: Timed out while waiting for element &#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;button&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:382
+    ––––––––––––––––––––––––––––––––––––––––––––
+     380 |         &#34;Thara&#34;
+     381 |       )
+     382 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;button&#34;) 
+     383 |       .verify.containsText(
+     384 |         &#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;strong&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;: element click intercepted: Element &lt;td&gt;...&lt;/td&gt; is not clickable at point (963, 371). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:388
+    ––––––––––––––––––––––––––––––––––––––––––––
+     386 |       )
+     387 |       .pause(1000)
+     388 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&#34;) 
+     389 |       .setValue(&#34;#subject&#34;, &#34;Maths&#34;)
+     390 |       .verify.value(&#34;#teacherId&#34;, &#34;&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#assign&gt;: element click intercepted: Element &lt;button id=&#34;assign&#34;&gt;...&lt;/button&gt; is not clickable at point (587, 377). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:397
+    ––––––––––––––––––––––––––––––––––––––––––––
+     395 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(3)&#34;, 6)
+     396 |       .verify.containsText(&#34;#modalError&#34;, &#34;&#34;)
+     397 |       .click(&#34;#assign&#34;) 
+     398 |       .verify.containsText(
+     399 |         &#34;#modalError&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#cancel&gt;: element click intercepted: Element &lt;button id=&#34;cancel&#34;&gt;...&lt;/button&gt; is not clickable at point (661, 377). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:406
+    ––––––––––––––––––––––––––––––––––––––––––––
+     404 |         &#34;&#34;
+     405 |       )
+     406 |       .click(&#34;#cancel&#34;) 
+     407 | 
+     408 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;: element click intercepted: Element &lt;td&gt;...&lt;/td&gt; is not clickable at point (963, 371). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:408
+    ––––––––––––––––––––––––––––––––––––––––––––
+     406 |       .click(&#34;#cancel&#34;)
+     407 | 
+     408 |       .click(&#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&#34;) 
+     409 |       .setValue(&#34;#subject&#34;, &#34;Geography&#34;)
+     410 |       .click(&#34;#teacherName option:nth-child(6)&#34;)
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+ TimeoutError
+   An error occurred while running .click() command on &lt;#assign&gt;: element click intercepted: Element &lt;button id=&#34;assign&#34;&gt;...&lt;/button&gt; is not clickable at point (587, 377). Other element would receive the click: &lt;iframe id=&#34;webpack-dev-server-client-overlay&#34; src=&#34;about:blank&#34; style=&#34;position: fixed; inset: 0px; width: 100vw; height: 100vh; border: none; z-index: 2147483647;&#34;&gt;&lt;/iframe&gt;
+  (Session info: chrome=131.0.6778.205)
+    {&#34;error&#34;:{&#34;name&#34;:&#34;ElementClickInterceptedError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Error location:
+    C:\Users\nunmu\reactTemp\tests\App.spec.js:416
+    ––––––––––––––––––––––––––––––––––––––––––––
+     414 |       .verify.containsText(&#34;.cellDetails&gt;p:nth-of-type(3)&#34;, 6)
+     415 |       .verify.containsText(&#34;#modalError&#34;, &#34;&#34;)
+     416 |       .click(&#34;#assign&#34;) 
+     417 |       .verify.containsText(
+     418 |         &#34;table&gt;tbody&gt;tr:nth-of-type(2)&gt;td:nth-of-type(7)&gt;p&#34;,
+    ––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
